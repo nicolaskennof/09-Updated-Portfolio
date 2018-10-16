@@ -321,9 +321,9 @@
           var thumb = $(slider.$slides[i]).data();
           return `<a>${i + 1}</a>`;
         },
-        infinite: true,
-        prevArrow: false,
-        nextArrow: false,
+        infinite: false,
+        prevArrow: true,
+        nextArrow: true,
         slidesToShow: slidesToShow,
         slidesToScroll: slidesToScroll
       });
